@@ -1,0 +1,27 @@
+# Backend
+backend/.env
+backend/**/__pycache__/
+backend/dlib
+backend/test
+backend/venv
+backend/logs/
+backend/temp/
+
+# Frontend
+frontend/node_modules
+frontend/build/
+frontend/logs/
+frontend/temp/
+
+# Miscellaneous
+Face Login Documentation/
+.idea/
+*.log
+*.tmp
+*.class
+package-lock.json
+yarn.lock
+*.bak
+*.swp
+*~
+.env.local
