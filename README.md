@@ -57,5 +57,3 @@ This section details the available API endpoints for this Real-Time Facial Recog
 | /register | POST | Registers a new user and stores their face image. |  * Email (String): User's email address.  * Username (String): User's chosen username.  * Image (String): Base64 encoded string of the user's face image. |  * Message (String): Success or error message.  * User ID (String): Unique identifier for the registered user (if successful). |
 | /login | POST | Authenticates a user by comparing their submitted image to the stored facial data. |  * Image (String): Base64 encoded string of the user's face image.  * Username (String): User's username for authentication. |  * Message (String): Success or error message.  * User ID (String): Unique identifier for the authenticated user (if successful). |
 | /greeting | GET | Retrieves the username associated with a valid user ID. |  * User ID (String): Unique identifier for a registered user. |  * Username (String): Username associated with the provided user ID (if successful). |
-
-
